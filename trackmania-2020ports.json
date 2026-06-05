@@ -1,0 +1,16 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": "2351",
+        "Name": "Main Game Port",
+        "Description": "Port used for main game traffic",
+        "Ref": "MainGamePort"
+    },
+    {
+        "Protocol": "Both",
+        "Port": "5001",
+        "Name": "XML RPC",
+        "Description": "Port used for main game traffic",
+        "Ref": "XMLRPC"
+    }
+]
