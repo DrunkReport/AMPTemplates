@@ -30,7 +30,7 @@
         "Placeholder": "MatchSettings/example.txt",
         "Suffix": "",
         "Hidden": false,
-        "SkipIfEmpty": true,
+        "SkipIfEmpty": false,
         "EnumValues": {}
     }
 ]
