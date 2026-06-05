@@ -1,1 +1,36 @@
-[]
+[
+    {
+        "DisplayName": "Configuration File",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "configuration,file",
+        "FieldName": "dedicated_cfg",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "dedicated_cfg",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "dedicated_cfg.txt",
+        "Placeholder": "dedicated_cfg.txt",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Game Settings File",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "game,settings,file",
+        "FieldName": "game_settings",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "game_settings",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "MatchSettings/example.txt",
+        "Placeholder": "MatchSettings/example.txt",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {}
+    }
+]

@@ -1,7 +1,7 @@
 Meta.DisplayName=Trackmania (2020)
 Meta.Description=
 Meta.Arch=x86_64
-Meta.Author=DrunkReport
+Meta.Author=DrunkReport - Made with AMP Config Generator
 Meta.URL=https://www.trackmania.com/
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
@@ -10,13 +10,13 @@ Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
-Meta.AppConfigId=16cf32e2-b7d5-4703-b80e-68afb96c99f3
+Meta.AppConfigId=2127ecb1-32b0-4843-8cf8-42789d99f6c9
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=false
 App.DisplayName=Trackmania (2020)
 App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
-App.WindowsCommandLineArgs=/dedicated_cfg=dedicated_cfg.txt /game_settings=MatchSettings/example.txt
+App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=/{0}={1}
 App.CommandLineParameterDelimiter= 
 App.RapidStartup=false
@@ -64,7 +64,7 @@ Console.SleepDelayMinutes=5
 Console.DozeDelay=2
 Console.AutoRetryCount=5
 Console.SleepStartThresholdSeconds=25
-Console.AppReadyRegex=^\^\\\.\\\.\\\.Load\s+succeeds\$$
+Console.AppReadyRegex=^$
 Console.UserJoinRegex=^$
 Console.UserLeaveRegex=^$
 Console.UserChatRegex=^$
@@ -78,7 +78,7 @@ App.BaseDirectory=./trackmania-2020/serverfiles/
 App.WorkingDir=serverfiles
 App.ExecutableWin=serverfiles\TrackmaniaServer.exe
 App.ExecutableLinux=serverfiles/TrackmaniaServer
-App.LinuxCommandLineArgs=/dedicated_cfg=dedicated_cfg.txt /game_settings=MatchSettings/example.txt
+App.LinuxCommandLineArgs=
 App.Ports=@IncludeJson[trackmania-2020ports.json]
 App.UpdateSources=@IncludeJson[trackmania-2020updates.json]
 App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
