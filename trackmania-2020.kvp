@@ -1,7 +1,7 @@
 Meta.DisplayName=Trackmania (2020)
 Meta.Description=
 Meta.Arch=x86_64
-Meta.Author=DrunkReport - Made with AMP Config Generator
+Meta.Author=DrunkReport
 Meta.URL=https://www.trackmania.com/
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
